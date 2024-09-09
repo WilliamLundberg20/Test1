@@ -26,17 +26,28 @@
             "https://example.com/myapp_screenshot3.png"
         ],
         "versions": [
-  {
-    "version": "1.0",
-    "buildVersion": "60",
-    "date": "2024-09-09",
-    "localizedDescription": "First AltStore release!",
-    "downloadURL": "https://williamlundberg20.github.io/Test1/Alla Apper/Test.ipa",
-    "size": 79821,
-    "minOSVersion": "12.0",
-    "maxOSVersion": "19.3"
-  },
-],
+          {
+            "version": "1.0",
+            "buildVersion": "60",
+            "date": "2024-09-09",
+            "localizedDescription": "First AltStore release!",
+            "downloadURL": "https://williamlundberg20.github.io/Test1/Alla Apper/Test.ipa",
+            "size": 79821,
+            "minOSVersion": "12.0",
+            "maxOSVersion": "19.3"
+          },
+        ],
+
+        "appPermissions": {
+          "entitlements": [
+            "com.apple.security.application-groups",
+            "com.apple.developer.siri"
+          ],
+          "privacy": {
+            "NSMicrophoneUsageDescription": "App uses the microphone to record audio.",
+            "NSCameraUsageDescription": "App uses the camera to take photos."
+          }
+        },
     },
 ],
     "news": [
