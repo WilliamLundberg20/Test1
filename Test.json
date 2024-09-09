@@ -18,14 +18,14 @@
         "localizedDescription": "This is an awesome app only available on AltStore.",
         "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
         "tintColor": "#F54F32",
-        "category": "utilities",
+        "category": "games",
         "screenshots": [
             "https://example.com/myapp_portrait_screenshot1.png",
         ],
         "versions": [
         {
           "version": "1.0",
-          "buildVersion": "60",
+          "buildVersion": "1",
           "date": "2024-09-09",
           "localizedDescription": "First AltStore release!",
           "downloadURL": "https://williamlundberg20.github.io/Test1/Apper/Test.ipa",
