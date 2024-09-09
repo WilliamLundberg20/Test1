@@ -9,6 +9,7 @@
         {
             "name": "AltStore",
             "bundleIdentifier": "com.rileytestut.AltStore",
+            "marketplaceID": "test",
             "developerName": "Riley Testut",
             "versions": [
                 {
