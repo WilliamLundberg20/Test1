@@ -1,10 +1,10 @@
 {
-    "name": "My Example Source",
+    "name": "Test William",
     "subtitle": "All my apps in one place.",
     "description": "Welcome to my source! Here you'll find all of my apps.",
     "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
     "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-    "website": "https://github.com/WilliamLundberg20/Test1/tree/main",
+    "website": "https://williamlundberg20.github.io/Test1/Test.json",
     "tintColor": "#4185A9",
     "featuredApps": [
         "com.example.myapp",
