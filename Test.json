@@ -6,6 +6,7 @@
     "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
     "website": "https://example.com",
     "tintColor": "#4185A9",
+    "patreonURL": "https://www.patreon.com/li696",
     "featuredApps": [
         "com.example.myapp",
         "com.example.anotherapp"
@@ -33,16 +34,9 @@
                     "version": "1.1",
                     "date": "2022-05-01T09:00:00-08:00",
                     "size": 20000000,
-                    "downloadURL": "https://example.com/myapp_v1.1.ipa",
+                    "downloadURL": "https://www.patreon.com/file?h=112156067&i=20546485",
                     "localizedDescription": "New features and bug fixes.",
                     "minOSVersion": "12.0"
-                },
-                {
-                    "version": "1.0",
-                    "date": "2022-03-16T07:00:00-08:00",
-                    "size": 10000000,
-                    "downloadURL": "https://example.com/myapp_v1.0.ipa",
-                    "localizedDescription": "Initial release."
                 }
             ],
             "appPermissions": {
@@ -54,67 +48,6 @@
                     "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
                     "NSCameraUsageDescription": "App uses camera to take photos.",
                     "NSMicrophoneUsageDescription": "App uses microphone to record video."
-                }
-            }
-        },
-        {
-            "name": "Another Example App",
-            "bundleIdentifier": "com.example.anotherapp",
-            "developerName": "Example Developer",
-            "subtitle": "Another awesome app.",
-            "localizedDescription": "This is another awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
-            "tintColor": "#3660A2",
-            "screenshots": [
-                {
-                    "imageURL": "https://example.com/anotherapp_portrait_1.png",
-                    "width": 750,
-                    "height": 1334
-                },
-                {
-                    "imageURL": "https://example.com/anotherapp_portrait_2.png",
-                    "width": 750,
-                    "height": 1334
-                },
-                {
-                    "imageURL": "https://example.com/anotherapp_landscape.png",
-                    "width": 2556,
-                    "height": 1179
-                }
-            ],
-            "versions": [
-                {
-                    "version": "1.2",
-                    "date": "2022-06-21T09:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
-                    "localizedDescription": "Bug fixes and performance improvements.",
-                    "size": 81514,
-                    "minOSVersion": "13.0"
-                },
-                {
-                    "version": "1.1",
-                    "date": "2022-04-15T10:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
-                    "localizedDescription": "New features!",
-                    "size": 81364,
-                    "minOSVersion": "13.0",
-                    "maxOSVersion": "16.3"
-                },
-                {
-                    "version": "1.0",
-                    "date": "2022-02-02T07:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
-                    "localizedDescription": "Initial release.",
-                    "size": 79821
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.developer.healthkit",
-                    "com.apple.developer.game-center"
-                ],
-                "privacy": {
-                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
                 }
             }
         }
