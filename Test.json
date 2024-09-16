@@ -3,11 +3,44 @@
   "url": "https://example.com/altstore",
   "apps": [
     {
-      "name": "ExampleApp",
-      "description": "com.exempel.framtidsapp",
-      "icon": "https://example.com/icons/exampleapp.png",
-      "filename": "ExampleApp.ipa",
-      "version": "1.0.0"
+      "name": "My Example App",
+      "bundleIdentifier": "com.example.myapp",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://example.com/myapp_icon.png",
+      "tintColor": "#F54F32",
+      "category": "utilities",
+      "screenshots": [
+        "https://example.com/myapp_screenshot1.png",
+        "https://example.com/myapp_screenshot2.png",
+        "https://example.com/myapp_screenshot3.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "filename": "MyExampleApp_1.0.0.ipa",
+          "releaseNotes": "Initial release.",
+          "size": "25MB",
+          "downloadURL": "https://example.com/MyExampleApp_1.0.0.ipa"
+        },
+        {
+          "version": "1.1.0",
+          "filename": "MyExampleApp_1.1.0.ipa",
+          "releaseNotes": "Bug fixes and performance improvements.",
+          "size": "26MB",
+          "downloadURL": "https://example.com/MyExampleApp_1.1.0.ipa"
+        }
+      ],
+      "appPermissions": {
+        "camera": "Required to take photos.",
+        "location": "Required for location-based features.",
+        "notifications": "Required to send notifications."
+      },
+      "patreon": {
+        "url": "https://patreon.com/example",
+        "description": "Support us on Patreon for additional features and perks!"
+      }
     }
   ]
 }
