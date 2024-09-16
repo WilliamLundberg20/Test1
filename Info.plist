@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Basic App Information -->
+    <key>CFBundleName</key>
+    <string>My Example App</string>
+    <key>CFBundleDisplayName</key>
+    <string>Example App</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.myapp</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    
+    <!-- App Capabilities and Entitlements -->
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+        <string>gps</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>remote-notification</string>
+    </array>
+
+    <!-- Permissions -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>App needs access to your photo library to save photos.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>App needs access to your camera to take photos.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>App needs access to your microphone to record audio.</string>
+    
+    <!-- App Icon and Launch Screen -->
+    <key>CFBundleIcons</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>AppIcon60x60</string>
+                <string>AppIcon76x76</string>
+                <string>AppIcon83.5x83.5</string>
+                <string>AppIcon1024x1024</string>
+            </array>
+        </dict>
+    </dict>
+    <key>UILaunchImages</key>
+    <array>
+        <dict>
+            <key>UILaunchImageMinimumOSVersion</key>
+            <string>8.0</string>
+            <key>UILaunchImageName</key>
+            <string>LaunchImage</string>
+            <key>UILaunchImageSize</key>
+            <dict>
+                <key>Width</key>
+                <integer>375</integer>
+                <key>Height</key>
+                <integer>667</integer>
+            </dict>
+        </dict>
+    </array>
+
+    <!-- App's Privacy Policy URL -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
