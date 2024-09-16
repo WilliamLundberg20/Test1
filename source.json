@@ -2,7 +2,7 @@
   "name": "Epippc Games, Inc.",
   "iconURL": "https://content-download-egs.distro.on.epicgames.com/.well-known/EG-Shield-2023-Black-dual-tone-expanded.png",
   "website": "https://epicgames.com",
-  "identifier": "com.test.altstore",
+  "identifier": "com.epocgames.altstore",
   "tintColor": "#818181",
   "featuredApps": [
     "com.epicgames.FortniteGame",
