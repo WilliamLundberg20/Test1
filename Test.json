@@ -4,7 +4,7 @@
   "apps": [
     {
       "name": "ExampleApp",
-      "description": "A brief description of the ExampleApp.",
+      "description": "test.test",
       "icon": "https://example.com/icons/exampleapp.png",
       "filename": "ExampleApp.ipa",
       "version": "1.0.0"
